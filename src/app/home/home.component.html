@@ -1,0 +1,11 @@
+<section>
+    <h2 class="home_title">Welcome</h2>
+    <p class="home_presentation">Quizz 10 Questions</p>
+    <div *ngFor="let Questionnaire of tab">
+        {{Questionnaire.question}}
+        {{Questionnaire.reponse1}}
+        {{Questionnaire.reponse2}}
+        {{Questionnaire.reponse3}}
+        {{Questionnaire.reponse4}}
+    </div>
+</section>
